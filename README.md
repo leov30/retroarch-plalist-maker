@@ -1,4 +1,4 @@
-# retroarch-plalist-maker
+# retroarch-playlist-maker
 I made this script to build playlist for this emulator(ogxbox retroarch), just drag and drop the folder with the roms intro the script.
 it supports subdirectories, you can drop the complete rom folder from resurrection xtras and will build the playlist
 the script will also setup the playlist to the selected core or set it to auto
