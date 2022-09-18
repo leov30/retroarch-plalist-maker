@@ -1,12 +1,12 @@
-# retroarch-playlist-maker
-I made this script to build playlist for this emulator(ogxbox retroarch), just drag and drop the folder with the roms intro the script.
-it supports subdirectories, you can drop the complete rom folder from resurrection xtras and will build the playlist
-the script will also setup the playlist to the selected core or set it to auto
+# retroarch-playlist-maker for ogxbox
+batch script to build playlist for ogxbox retroarch, will fill out core info/path from menu selection, can make a playlist from recursive directories, and supports finalburn full titles.  
 
-I improved the script, now has the option to add full titles to finalburn playlist (needs arcade.txt file in _arcade folder). i also included this:
+# usage
+just drag and drop the folder with the roms into the script. playlist will have the name of the folder, paths to the roms will be "D:\\roms\\" to be used inside emulators roms\ folder.
+_arcade folder needs to be next to the script to extract finalbaurn titles.
+
+i also included this:
 - full finalburn datafile
-- only parents datafile
-- script to extract neogeo,cps1,cps2
+- only parents finalburn datafile
+- batch script to separate neogeo,cps1,cps2 into their own folders
 
-after making the playlist the \n character needs to be removed, this can be done with notepad++ in extended mode,
-or the script will do it automatically if xidel.exe is found next to the batch script: https://www.videlibri.de/xidel.html
